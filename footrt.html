@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .footer{
+        height: 344px;
+      background-color: hsl(216, 53%, 9%);
+      color: white;
+      padding: 53px;
+    }
+    .the p{
+        width: 19rem;
+    }
+    .flex-4{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .the li{
+        list-style: none;
+        margin: 1.2rem;
+        margin-left: 10px;
+    }
+    .the ul :hover{
+        transition: 0.3s;
+      text-decoration: underline;
+      color: hsl(176, 68%, 64%); 
+    }
+    .social{
+      display: flex;
+      align-items: center;
+    }
+    .social i{
+      color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: white solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .social :hover{
+      transition: 0.3s;
+      transform: scale(1.1);
+      color: hsl(176, 68%, 64%);
+    }
+    .the .phone{
+        list-style-image: url(images/icon-phone.svg);
+    }
+    .the .email{
+        list-style-image: url(images/icon-email.svg);
+    }
+    .the .location{
+        list-style-image: url(images/icon-location.svg);
+    }
+</style>
+<body>
+    <div class="footer">
+        <div class="logo">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <div class="flex-4">
+            <div class="the">
+            <ul>
+                <li class="location"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua</p></li>
+            </ul>
+        </div>
+        <div class="the">
+            <ul>
+                <li class="phone">+1-543-123-4567</li>
+                <li class="email">example@fylo.com</li>
+            </ul>
+        </div>
+        <div class="the">
+            <ul>
+                <li>about us</li>
+                <li>Jobs</li>
+                <li>Press</li>
+                <li>blog</li>
+            </ul>
+        </div>
+        <div class="the">
+            <ul>
+                <li>contact us</li>
+                <li>terms</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
